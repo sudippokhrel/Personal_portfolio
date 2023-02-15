@@ -308,8 +308,44 @@ section {
     background-color: #149ddd;
   }
 
+/* Certificates section 
+ */
+
+ .certification .swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper {
+  width: 95%;
+  height: 135%;
+}
+.swiper .swiper-pagination{
+  padding-top: 50px;
+}
 
 
+.swiper-slide .card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.certificates {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+/* CARD for images */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+
+.card-custom .card-img img {
+  transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-img img {
+  transform: scale(1.1);
+}
 
 
 
