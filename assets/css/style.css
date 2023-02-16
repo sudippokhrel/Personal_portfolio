@@ -13,10 +13,6 @@ a:hover {
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Raleway", sans-serif;
-}
-
 /* Back to 
 Top Button  */
 
@@ -48,10 +44,10 @@ Top Button  */
     font-size: 24px;
     margin: 0;
     padding: 0;
-    font-weight: 600;
+    font-weight: 700;
     -moz-text-align-last: center;
     text-align-last: center;
-    font-family: "Poppins", sans-serif;
+    font-family: sans-serif;
   }
   
   #header .profile h1 a,
@@ -251,7 +247,7 @@ section {
   }
   
   .about .content ul li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
   }
@@ -272,7 +268,7 @@ section {
   }
 
   /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
     height: 60px;
@@ -350,9 +346,35 @@ section {
 
 
 
+/* ----------------------------
+ Work Section only  
+ --------------------------------*/
+ #work .body .h4 .p{
+  display: block;
+  font-family: "Raleway", sans-serif;
+}
 
+ .link-custom {
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
 
-/* For Projects Section Only  */
+.link-custom::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #5b37ed;
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+  width: 100%;
+  
+}
 
 img {
     width: 100%;
