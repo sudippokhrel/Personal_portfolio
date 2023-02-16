@@ -13,9 +13,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Back to 
-Top Button  */
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -170,13 +167,14 @@ section {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    /* background: url("") top center; */
+    background-color: #383b42;
     background-size: cover;
   }
   
   #hero:before {
     content: "";
-    background: rgba(5, 13, 24, 0.3);
+    background: rgba(75, 90, 113, 0.3);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -210,7 +208,7 @@ section {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 5px solid #149ddd;;
   }
   
   @media (min-width: 1024px) {
@@ -266,6 +264,25 @@ section {
   .about .content p:last-child {
     margin-bottom: 0;
   }
+
+  .about a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: #149ddd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.about a:hover{
+  color: #fff;
+    background: #5b37ed;
+}
+
 
   /*--------------------------------------------------------------
 # Skills
@@ -382,16 +399,16 @@ img {
 
 
 .shadow-effect:hover {
-    box-shadow: -6px 6px 0 0 #696c69;
+    box-shadow: -6px 6px 0 0 #4047a3;
 }
 
 
 .work {
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 24px 0 rgba(58, 143, 200, 0.12);
 }
 
 .card-custom{
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 24px 0 rgba(58, 143, 200, 0.12);
 }
 /* CARD for images */
 .card-custom .card-custom-image {
